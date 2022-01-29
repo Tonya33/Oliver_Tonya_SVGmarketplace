@@ -1,8 +1,10 @@
-body {font-size: 16px;}
+body {font-size: 16px;
+background-color: #ffffff;}
 
 .hidden{display: none;}
 
 .main-heading {
+  background-color: inherit;
   color: #600b48;
   cursor: pointer;
   text-align: center;
@@ -12,23 +14,35 @@ body {font-size: 16px;}
 
 /* set up grid */
 
-#svg-grid {
+.svg-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-auto-rows: auto;
-  grid-gap: 20px;
+  align-content: space-around;
+  margin: 0 12em 2em 12em;
 }
 
-#text-grid {
+.text-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-auto-rows: auto;
   grid-gap: 20px;
+  width: 75%
 }
 
-
-.container {display: flex;}
-
+.container {
+  display: flex;
+  justify-content: center;
+}
 
 .columns img {width: 100%;}
 .columns svg {width: 100%;}
+
+.divide-line {
+  border-bottom: 5px solid #600b48;
+  margin: 3em 0 3em 0;
+  width: 100%;
+}
+#lips {
+  width: 75%;
+}
