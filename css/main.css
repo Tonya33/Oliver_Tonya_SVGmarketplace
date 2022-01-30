@@ -1,5 +1,6 @@
 body {font-size: 16px;
-background-color: #ffffff;}
+  color: #29112d;
+background-color: #b5a9b7;}
 
 .hidden{display: none;}
 
@@ -12,7 +13,7 @@ background-color: #ffffff;}
   font-size: 4em;
 }
 
-/* set up grid */
+/* Grid Setup */
 
 .svg-grid {
   display: grid;
@@ -41,7 +42,9 @@ p{
   align-items:flex-end;
   font-family: 'Cedarville Cursive', cursive;
   font-size: 1.5em;
+  font-weight: bold;
 }
+/*floats*/
 .float{
  margin-top: 8em;
 }

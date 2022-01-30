@@ -7,8 +7,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lobster&display=swap" rel="stylesheet">
-  <!-- insert google fonts above style sheet -->
   <link rel="stylesheet" href="css/main.css">
+  <!--blinking effect, svg transition-->
   <style>
   .eyeball {
     width: 190px;
@@ -24,39 +24,43 @@
   <title>Girl Power SVG Icons</title>
 </head>
 <body>
+  <h1 id="theHeading" class="main-heading">Girl Power SVG Icons</h1>
+  <h1 class="hidden">Rows of SVG icons</h1>
   <main id="app">
     <header class="main-header divide-line">
-      <h1 class="hidden">Welcome to my Awesome SVG Store</h1>
-      <h2 id="theHeading" class="main-heading">Girl Power SVG Icons</h2>
+      <!--Border under the header-->
       <img id="GirlyBorder" class="icon borderIMG" src="images/girl-face.svg" alt="border graphic">
     </header>
-    <!-- svg container starts here -->
+    <!-- svg containers starts here, row one -->
     <section class="svg-grid">
+      <h2 class="hidden">First Row SVG</h2>
       <article class="container">
-        <h2 class="hidden">graphic 1</h2>
+        <h3 class="hidden">graphic 1</h3>
         <!-- this is the first svg image -->
         <div><img id="Feminine_Movement" class="icon" src="images/girl_spinning.svg" alt="graphic">
         <p>Feminine Movement</p></div>
       </article>
       <article class="container">
-        <h2 class="hidden">graphic 2</h2>
+        <h3 class="hidden">graphic 2</h3>
         <!-- 2nd SVG image-->
         <div><img id="Crystal_Ball" class="icon" src="images/crystal_ball.svg" alt="graphic">
         <p class="float-font">Intuition</p></div>
       </article>
       <article class="container">
-        <h2 class="hidden">graphic 2</h2>
+        <h3 class="hidden">graphic 3</h3>
         <!-- 3rd SVG image-->
         <div><img id="Yoga_Babe" class="icon" src="images/yoga_girl.svg" alt="graphic">
           <p class="float-font">Yoga Babe</p></div>
       </article>
-      <!--End svg -->
       </section>
+      <!--End svg row one -->
+      <!--Start svg row two -->
     <section class="svg-grid">
+      <h2 class="hidden">Second Row SVG</h2>
       <article class="container">
-        <h2 class="hidden">Second row of SVG icons</h2>
-        <!-- this is the coded svg image -->
+        <!-- 4th SVG image inserted code to edited hover-->
         <div>
+          <h3 class="hidden">graphic 4</h3>
         <svg id="GirlPower" class="icon" xmlns="http://www.w3.org/2000/svg" width="132.96" height="115.07" viewBox="0 0 132.96 115.07">
   <defs>
     <style>
@@ -92,44 +96,45 @@
 <p>Girl Power</p>
 </div>
 </article>
+<!-- 5th SVG image-->
       <article id="ThirdEye" class="icon container eyeball">
+        <h3 class="hidden">graphic 5</h3>
         <div class="float">
         <p>Third Eye Open</p>
       </div>
       </article>
       <article class="container">
-        <h2 class="hidden">graphic 2</h2>
-        <!-- 4th SVG image-->
+        <h3 class="hidden">graphic 6</h3>
+        <!-- 6th SVG image-->
         <div><img id="GirlSymbol" class="icon" src="images/girl_symbol.svg" alt="graphic">
           <p>Symbolism</p></div>
       </article>
   </section>
+  <!--End svg row two-->
+  <!--start svg row three-->
     <section class="svg-grid">
+      <h2 class="hidden">Third Row SVG</h2>
       <article class="container">
-        <h2 class="hidden">graphic 1</h2>
-        <!-- this is the first svg image -->
+        <h3 class="hidden">graphic 7</h3>
+        <!-- 7th SVG image-->
         <div><img id="MotherFigure" class="icon" src="images/woman.svg" alt="graphic">
         <p>Mother Figure</p></div>
       </article>
       <article class="container">
-        <h2 class="hidden">graphic 2</h2>
-        <!-- 2nd SVG image-->
+        <h3 class="hidden">graphic 8</h3>
+        <!-- 8th SVG image-->
         <div><img id="SoftLips" class="icon" src="images/lips.svg" alt="graphic">
         <p class="float-font float-down">Soft Speech</p></div>
       </article>
       <article class="container">
-        <h2 class="hidden">graphic 2</h2>
-        <!-- 3rd SVG image-->
+        <h3 class="hidden">graphic 9</h3>
+        <!-- 9th SVG image-->
         <div><img id="Flower" class="icon" src="images/flower.svg" alt="graphic">
         <p>Beautiful Growth</p></div>
       </article>
-      <!--End svg -->
+      <!--End svg row three -->
       </section>
-
   </main>
-
-  <!-- script tags always at the bottom-->
   <script src="js/main.js" defer></script>
-
 </body>
 </html>
